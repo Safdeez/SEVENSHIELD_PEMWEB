@@ -1,0 +1,196 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+    background: #fff;
+}
+
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #272727;
+
+    padding: 28px 12%;
+    transition: all .50s ease;
+    
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 80px;
+    height: 50px;
+}
+
+.navbar{
+    display: flex;
+    margin-left: 200px;
+}
+
+.navbar a{
+    color: black;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding:  8px 0;
+    margin: 0px 8px;
+    cursor: pointer;
+}
+
+.navbar a:hover{
+    transition: all .50s ease;  
+    color: #0055ff;
+
+
+    
+}
+
+
+.bck{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+
+    
+
+}
+
+.main {
+    display: flex;
+    align-items: center;
+}
+
+.main a{
+    margin-right: 15px;
+    margin-left: 10px;
+    color: #0055ff;
+    font-size: 1.1rem;
+    font-weight: 700;
+    transition: all .50s ease;
+}
+
+.main a:hover{
+    color: #000000;
+    transition: all .50s ease;
+}
+
+
+.kodam{
+    text-align: center;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.kodam span{
+    text-transform: uppercase;
+    display: block;
+}
+
+.text1{
+    color: black;
+    font-family: 'poppins', sans-serif;
+    font-size: 97px;
+    font-weight: 700;
+    letter-spacing: 8px;
+    margin-bottom: 20px;
+    background: #fff;
+    position: relative;
+    animation: text 3s 1;
+}
+
+.text2{
+    font-size: 15px;
+    color: black;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.btn {
+    background-color: #0055ff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    animation: text2 3s 1;
+    margin-top: 50px;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn:hover{
+    padding: 8px 15px;
+    transition: all .50s ease;
+    background-color: black;
+    font-size: small;
+}
+
+@keyframes text {
+    0% {
+    color: #000000;
+    margin-bottom: -40px;
+    }
+    30% {
+    letter-spacing: 25px;
+    margin-bottom: -40px;
+    }
+    85% {
+    letter-spacing: 8px;
+    margin-bottom: -40px;
+    }
+}
+
+@keyframes text2 {
+    0% {
+    opacity: 0;
+    transform: translateY(20px);
+    }
+    100% {
+    opacity: 1;
+    transform: translateY(0);
+    }
+}
+
+
+.anton{
+    text-align: center;
+    justify-content: center;
+    font-size: 56px;
+    font-weight: 600;
+}
+
+
+.credit{
+    text-align: center;
+    justify-content: center;
+    font-size: 14px;
+    font-family: 'poppins', sans-serif;
+    font-weight: 200;
+}
+
+
+.gaga{
+    color: blue;
+    font-weight: 700;
+}
+
+
