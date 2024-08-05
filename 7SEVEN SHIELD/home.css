@@ -82,7 +82,7 @@ header{
 }
 
 .main a:hover{
-    color: #000000;
+    color: #fff;
     transition: all .50s ease;
 }
 
@@ -185,6 +185,7 @@ header{
     font-size: 14px;
     font-family: 'poppins', sans-serif;
     font-weight: 200;
+    color: #fff;
 }
 
 
