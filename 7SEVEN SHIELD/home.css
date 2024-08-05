@@ -10,7 +10,7 @@
 
 body {
     min-height: 100vh;
-    background: #000000;
+    background: #202020;
 }
 
 
@@ -22,7 +22,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #000;
+    background: #202020;
 
     padding: 28px 12%;
     transition: all .50s ease;
@@ -82,7 +82,7 @@ header{
 }
 
 .main a:hover{
-    color: #fff;
+    color: #923100;
     transition: all .50s ease;
 }
 
@@ -94,7 +94,7 @@ header{
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
-    background: #000;
+    background: #202020;
 }
 
 .kodam span{
@@ -104,20 +104,20 @@ header{
 }
 
 .text1{
-    color: black;
+    color: whitq;
     font-family: 'poppins', sans-serif;
     font-size: 97px;
     font-weight: 700;
     letter-spacing: 8px;
     margin-bottom: 20px;
-    background: #000;
+    background: #202020;
     position: relative;
     animation: text 3s 1;
 }
 
 .text2{
     font-size: 15px;
-    color: black;
+    color: white;
     font-family: sans-serif;
     font-weight: 500;
 }
@@ -139,7 +139,7 @@ header{
 .btn:hover{
     padding: 8px 15px;
     transition: all .50s ease;
-    background-color: black;
+    background-color: #923100;
     font-size: small;
 }
 
@@ -239,3 +239,65 @@ header{
     font-weight: 600;
 }
 
+
+.brow{
+    text-align: center;
+    justify-content: center;
+}
+
+.brow strong{
+    font-size: 45px;
+    color: #fff;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.brow p{
+    color: #FF8343;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.produk {
+    display: inline-block;
+    margin: 21px;
+    width: 200px;
+}
+
+
+.produk img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.informasi {
+    padding: 10px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.informasi h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.informasi p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #FF8343;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3e8e41;
+}
