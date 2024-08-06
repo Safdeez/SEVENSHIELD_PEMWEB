@@ -1,0 +1,110 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  list-style: none;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  background: #202020;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #202020;
+  padding: 28px 12%;
+  transition: all 0.5s ease;
+}
+
+.logo img {
+  width: 200px;
+  height: 100px;
+}
+
+.navbar {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+.navbar a {
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: 8px 0;
+  margin: 0px 8px;
+  cursor: pointer;
+}
+
+.navbar a:hover {
+  transition: all 0.5s ease;
+  color: #ff8343;
+}
+
+.bck {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+}
+
+.main a {
+  margin-right: 15px;
+  margin-left: 10px;
+  color: #ff8343;
+  font-size: 1.1rem;
+  font-weight: 700;
+  transition: all 0.5s ease;
+}
+
+.main a:hover {
+  color: #923100;
+  transition: all 0.5s ease;
+}
+
+.contact-box {
+  color: #d66b00;
+}
+
+.contact-box::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.contact {
+  width: 25%;
+  padding: 50px;
+  box-sizing: border-box;
+  text-align: center;
+  float: left;
+}
+
+.contact h4 {
+  color: #ff8343;
+  padding-bottom: 10px;
+}
+
+.contact p {
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.map {
+  height: 100%;
+  margin-top: 70px;
+}
